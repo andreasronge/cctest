@@ -20,6 +20,14 @@ angular.module('cctestApp')
        }
     }
 
+    function barfoo(x) {
+      if (x) {
+        return "YES";
+      } else {
+	return "FALSE";
+       }
+    }
+
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
